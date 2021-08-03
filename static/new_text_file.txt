@@ -1,0 +1,3 @@
+THIS IS A TEXT FILE, keep learning and you will touch the stars!
+
+THIS IS A STATIC FILE

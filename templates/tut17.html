@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts in CSS</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <style>
+        #firstpara {
+            color: indianred;
+        }
+        
+        #secondpara {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 23px;
+            line-height: 2.3em;
+            border: 4px solid rgb(0, 255, 128);
+            border-top-left-radius: 4px;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 16px;
+        }
+        
+        .classtest1 {
+            font-family: 'Ubuntu';
+            background-color: royalblue;
+            border: salmon;
+        }
+        
+        #thirdID {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 15px;
+            line-height: 1.2em;
+            border: 3px solid salmon;
+            height: 300px;
+            width: 400px;
+            background-image: url("robin.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    </style>
+</head>
+
+<body>
+    <h4 class="classtest1">Hello, CSS Fonts</h4>
+    <p id="firstpara">This is css font, very exiting journey</p>
+    <p class="classtest1">This site is made with HTML with limited CSS applied via Class and ID properties!</p>
+    <p id="secondpara" class="classtest1">Below is an Peblet example!</p>
+    <p id="thirdID">This is my image</p>
+    <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4">
+        <p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/emy6xdskn2bcxu7k" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p>
+        <div style="padding:8px;text-align:right;margin:0;">
+            <a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Made with Padlet"></a>
+        </div>
+    </div>
+
+</body>
+
+</html>

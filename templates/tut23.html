@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <title>Navigation in HTML!</title>
+
+    <style>
+        .navBar {
+            background-color: rgb(10, 10, 10);
+            border-radius: 30px;
+            color: wheat;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 12px;
+        }
+        
+        .navBar ul {
+            overflow: auto;
+        }
+        
+        .navBar li {
+            float: left;
+            list-style: none;
+            padding: 3px 3px;
+            margin: 3px 3px;
+        }
+        
+        .navBar li a {
+            padding: 3px 3px;
+            color: wheat;
+        }
+        
+        .search {
+            float: right;
+            color: white;
+            padding: 8px 30px;
+            border-radius: 8px;
+        }
+        
+        a:hover {
+            color: yellowgreen;
+            background-color: teal;
+        }
+        
+        .navBar input {
+            border: 2px black;
+            border-radius: 6px;
+        }
+        
+        #search1 {
+            color: yellowgreen;
+            font-style: italic;
+            font-size: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navBar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search this website">
+
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
